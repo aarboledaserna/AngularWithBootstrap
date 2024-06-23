@@ -1,27 +1,73 @@
-# PlantillaBasePipeV2
+
+# AngularWithBoostrap
+
+This project is the combination of angular with bootstrap to show any functionality that can be used in all projects when bootstrap is incorporated.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+This project was generated with ng new explicationBoostrap --no-standalone
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Appendix
 
-## Code scaffolding
+To use bootstrap and font awesome it is necessary to install the following commands within the project (cmd command): 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* npm install bootstrap
+* npm install @fortawesome/fontawesome-free 
 
-## Build
+then in the angular.json file place the following:  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* "node_modules/bootstrap/dist/css/bootstrap.min.css",
+* "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## public test API (https://rickandmortyapi.com/documentation/) 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+#### API get type : array with two object
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+"GET https://rickandmortyapi.com/api/location/3,21"
+
+[
+  {
+    "id": 3,
+    "name": "Citadel of Ricks",
+    "type": "Space station",
+    "dimension": "unknown",
+    "residents": [
+      "https://rickandmortyapi.com/api/character/8",
+      "https://rickandmortyapi.com/api/character/14",
+      // ...
+    ],
+    "url": "https://rickandmortyapi.com/api/location/3",
+    "created": "2017-11-10T13:08:13.191Z"
+  },
+  {
+    "id": 21,
+    "name": "Testicle Monster Dimension",
+    "type": "Dimension",
+    "dimension": "Testicle Monster Dimension",
+    "residents": [
+      "https://rickandmortyapi.com/api/character/7",
+      "https://rickandmortyapi.com/api/character/436"
+    ],
+    "url": "https://rickandmortyapi.com/api/location/21",
+    "created": "2017-11-18T19:41:01.605Z"
+  }
+]
+
+
+## Authors
+
+- Andrés Felipe Arboleda Serna
+
+
+## Deployment
+
+ng serve -o
+
+
+## Documentation
+
+[Documentation](https://linktodocumentation)
+

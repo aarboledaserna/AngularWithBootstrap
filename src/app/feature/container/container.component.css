@@ -1,0 +1,20 @@
+.colo {
+    height: 90px;
+    background-color: rgb(108, 108, 125);
+    color: white;
+    font-size: 50px;
+    
+}
+
+.color1{
+   background-color: rgb(211, 227, 63);
+   
+   color: black;
+   margin: 30px;
+   padding: 10px;
+}
+
+.col{
+    background-color: rgb(204, 172, 149);
+    border: 1px solid black;
+}

@@ -1,0 +1,38 @@
+<div class="h2r">
+    <h2>Dato API Express</h2>
+</div>
+<div class="container">
+    <div class="row" *ngFor="let item2 of datoApiCol">
+            <div class="col columnas" *ngFor="let item2 of datoApiCol">
+                {{item2.id}} - {{item2.name}}
+            </div>
+    </div>
+</div>
+
+
+
+<div class="container table-container">
+    <h2>Ejemplo de Tabla</h2>
+    <table class="table table-bordered table-hover">
+      <thead class="thead-dark">
+        <tr> 
+            <th *ngFor="let item2 of datoApiRow">{{item2}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let id of ids; let i = index">
+          <td>{{ id }}</td>
+          <td>{{ names[i] }}</td>
+          <td>{{ apellidos[i] }}</td>
+          <td>{{ usernames[i] }}</td>
+        </tr>
+        <tr *ngFor="let id of ids2; let j = index">
+            <td>{{ id }}</td>
+            <td>{{ names2[j] }}</td>
+            <td>{{ apellidos2[j] }}</td>
+            <td>{{ usernames2[j] }}</td>
+          </tr>
+        
+      </tbody>
+    </table>
+  </div>

@@ -1,0 +1,13 @@
+.h2r{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.columnas{
+    text-align: center;
+    border: 1px solid rgb(232, 183, 183); 
+}
